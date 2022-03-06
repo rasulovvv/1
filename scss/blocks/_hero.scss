@@ -1,0 +1,159 @@
+.hero{
+    display: flex;
+    padding-top: 50px;
+}
+.form{
+    margin-right: 30px ;
+    border-right: 1px solid #fff;
+}
+.form__content{
+    display: flex;
+}
+.form__text{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding: 14px 0 14px 25px;
+    width: 393px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.form__text--company{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(174px);
+    border-radius: 25px;
+    padding: 14px 0 14px 25px;
+    width: 288px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.form__tg--user{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(174px);
+    border-radius: 25px;
+    padding: 14px 0 14px 25px;
+    width: 338px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.form__label{
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.form__select{
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(174px);
+    border-radius: 25px;
+    padding: 14px 0 14px 25px;
+    width: 287px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.form__select--telegram{
+    
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(174px);
+    border-radius: 25px;
+    padding: 14px 0 14px 25px;
+    width: 394px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+.form__textarea{
+    
+    display: block;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    backdrop-filter: blur(174px);
+    border-radius: 25px;
+    padding: 14px 0 14px 25px;
+    width: 711px;
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    resize: none;
+}
+.form__btn{
+    border-radius: 50px;
+    background: #0040DD;
+    padding: 10px 15px;
+    border: none;
+    line-height: 22px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.design__title{
+    line-height: 40px;
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 600;
+}
+.design__content{
+    width: 440px;
+}
+.design__text{
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+    color: #FFFFFF;
+}
+@media only screen and (max-width:576px){
+    .hero{
+        padding-top: 140px ;
+    }
+    .form__content{
+        display: block;
+    }
+    .form__text{
+        width: 343px;
+    }
+    .form__text--company{
+        width: 343px;
+    }
+    .form__tg--user{
+        width: 343px;
+    }
+    .form__select{
+        width: 343px;
+    }
+    .form__select--telegram{
+        width: 343px;
+    }
+    .form__textarea{
+        display: none;
+    }
+    .form__btn--img{
+        padding-left: 218px;
+    }
+    .design{
+        display: none;
+    }
+    .form{
+        margin-right: 0 ;
+        border: none;
+    }
+}

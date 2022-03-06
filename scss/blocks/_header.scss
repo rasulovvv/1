@@ -1,0 +1,131 @@
+.site-header{
+  padding: 65px 0 92px 0;
+  border-bottom: 1px solid #FFFFFF;
+}
+  
+  
+.site-header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-header__menu{
+  display: flex;
+  align-items: center;
+}
+  
+  
+.navbar__list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+  
+.navbar__link{
+  display: block;
+  padding-right: 35px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.3;
+  transition: all .5s;
+  &:hover{
+    opacity: 1;
+  }
+  &:active{
+    opacity: 1;
+  }
+}
+.navbar__link--active{
+  opacity: 1;
+  text-decoration: line-through;
+}
+.lang__list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  top: 0;
+  padding: 6px 0 6px 10px;
+  margin-left: 15px;
+  opacity: 0.6;
+  border: 1px solid #FFFFFF;
+  border-radius: 75px;
+} 
+.lang__link{
+  text-decoration: none;
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 23px;
+  color: #FFFFFF;
+  opacity: 0.3;
+  transition: all .5s;
+  &:hover{
+    opacity: 1;
+  }
+  &:active{
+    opacity: 1;
+  }
+}
+.lang__link--active{
+  opacity: 1;
+}
+.site-header__hamburg-btn{
+  display: none;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+}
+  
+@media only screen and (max-width:576px){
+  .container{
+    width: 100%;
+    padding: 0 16px;
+  }
+  .site-header{
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    border-bottom: none;
+  }
+  .site-header--open .navbar__list{
+    display: block;
+  }
+  .site-header__inner{
+    padding: 18px 0;
+  }
+  .site-header__link{
+    display: none;
+  }
+  .navbar__list{
+    display: none;
+    position: fixed;
+    z-index: 2;
+    top: 66px;
+    flex-direction: column;
+  }
+  .lang__list{
+    margin: 0;
+  }
+  .navbar__link{
+    display: block;
+    padding: 10px 15px;
+    background: tranparent;
+    opacity: 1;
+  }
+  .navbar__link--active{
+    text-decoration: none;
+    padding: 10px 262px 10px 15px;
+    background: #0040DD;
+    border-radius: 50px;
+    opacity: 1;
+  }
+  
+  .site-header__hamburg-btn{
+    display: block;
+    margin-left: auto;
+  }
+}

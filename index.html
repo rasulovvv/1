@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title></title>
+</head>
+<body>
+
+  <h1 class="visually-hidden">Ish kerak</h1>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a class="site-header__link" href="./index.html">
+          <img src="./images/logo-removebg 1.svg" alt="site logo image">
+        </a>
+
+
+        <div class="site-header__menu">
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item"> <a class="navbar__link navbar__link--active" href="#">Services</a></li>
+              <li class="navbar__item"> <a class="navbar__link" href="#">Portfolio</a></li>
+              <li class="navbar__item"> <a class="navbar__link" href="#">About us</a></li>
+            </ul>
+          </nav>
+          <ul class="lang__list">
+            <li class="navbar__item">
+              <a class="lang__link" href="#">Uz</a>
+            </li>
+            <li class="navbar__item">
+              <a class="lang__link" href="#">Ru</a>
+            </li>
+            <li class="navbar__item">
+              <a class="lang__link lang__link--active" href="#">En</a>
+            </li>
+          </ul>
+        </div>
+        <button class="site-header__hamburg-btn" type="button">
+          <img src="./images/burger.svg" alt="burger-menu">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="hero">
+        <form class="hero__form form" action="https://echo.htmlacademy.ru">
+
+          <div class="form__content">
+          <label class="form__label" for="name">Ism Familiya
+            
+          <input class="form__text" type="text" name="name" required placeholder="Ismingini kiriting" aria-label="name">
+          </label>
+
+          <label class="form__label" for="company">Companiyani kiriting
+            
+          <input class="form__text--company" type="text" name="company" required placeholder="Companiya" aria-label="name">
+          </label>
+          </div>
+
+          <div class="form__content">
+            <label class="form__label" for="name">Telegram username
+              
+            <input class="form__tg--user" type="text" name="Telegram-user" required placeholder="Username" aria-label="name">
+            </label>
+  
+            <label class="form__label" for="company">Phone number
+              
+            <input class="form__tg--user" type="tel" name="phone-number" required placeholder="+998 99" aria-label="name">
+            </label>
+            </div>
+
+
+            <div class="form__content">
+              <label class="form__label">
+                Sayni turini tanlang
+                <select class="form__select" name="web-site type" required>
+                    <option value="" selected disabled>Corparative sayt</option>
+                    <option value="landig page">landig page</option>
+                    <option value="shopping site">shopping sayt</option>
+                </select>
+              </label>
+
+              <label class="form__label">
+                Sizga bo’glanish usulini tanlang
+                <select class="form__select--telegram" name="telegram type" required>
+                    <option value="" selected disabled>Telegram</option>
+                    <option value="teg bot">telegram botimiz</option>
+                    <option value="tg kanal">telegram kanalimiz</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="form__content">
+              <label class="form__label">
+                Message
+                <textarea class="form__textarea" required name="message" cols="30" rows="10"></textarea>
+              </label>
+            </div>
+
+            <button class="form__btn" type="submit">Jo’natish
+              <img class="form__btn--img" src="./images/Vector.svg" alt="image of left arror icon">
+            </button>
+        </form>
+
+
+
+        <div class="design">
+          <h2 class="design__title">Ux & Ui design</h2>
+
+          <div class="design__content">
+            <p class="design__text">
+              In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
